@@ -1,9 +1,9 @@
 {
-	"required": true,
+	"required": false,
 	"package": "newitemtestmod.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		""
 	],
 	"injectors": {
 		"defaultRequire": 1

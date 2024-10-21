@@ -3,15 +3,14 @@
 	"id": "newitemtestmod",
 	"version": "${version}",
 	"name": "NewItemTestMod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "New Items Food, Armor, Tools, etc.",
 	"authors": [
-		"Me!"
+		"rate429"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/rate429/NewItemTestMod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/newitemtestmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -22,20 +21,11 @@
 			"newitemtestmod.NewItemTestModClient"
 		]
 	},
-	"mixins": [
-		"newitemtestmod.mixins.json",
-		{
-			"config": "newitemtestmod.client.mixins.json",
-			"environment": "client"
-		}
-	],
+
 	"depends": {
 		"fabricloader": ">=0.16.7",
 		"minecraft": "~1.21.1",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }

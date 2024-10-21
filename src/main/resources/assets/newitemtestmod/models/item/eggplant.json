@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "newitemtestmod:item/eggplant",
+        "layer1": "newitemtestmod:item/eggplant"
+    }
+}
